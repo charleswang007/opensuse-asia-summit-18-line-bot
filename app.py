@@ -363,8 +363,8 @@ def handle_message(event):
             original_content_url='https://charleswang.us/opensuse-line-bot/taiwan-tech5.jpg',
             preview_image_url='https://charleswang.us/opensuse-line-bot/taiwan-tech3.jpg'
         )
-        line_bot_api.reply_message(
-            event.reply_token, image_message)
+        #line_bot_api.reply_message(
+        #    event.reply_token, image_message)
         line_bot_api.push_message(
             event.push_token,
             TextSendMessage(text=content))
