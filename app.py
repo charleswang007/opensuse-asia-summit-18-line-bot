@@ -350,7 +350,7 @@ def handle_message(event):
             TextSendMessage(text=content))
         return 0
     if event.message.text == "openSUSE-youtube":
-        target_url = 'https://www.youtube.com/user/opensusetv/videos'
+        target_url = 'https://www.youtube.com/user/truemovie1/videos'
         rs = requests.session()
         res = rs.get(target_url, verify=False)
         soup = BeautifulSoup(res.text, 'html.parser')
