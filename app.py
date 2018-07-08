@@ -362,7 +362,7 @@ def handle_message(event):
         #line_bot_api.reply_message(
         #    event.reply_token,
         #    message)
-        line_bot_api.replySticker(event.reply_token, StickerSendMessage(package_id='1',sticker_id='1'))
+        line_bot_api.replySticker(event.reply_token, { packageId: '1', stickerId: '1' })
         return 0
     if event.message.text == "YouTube":
         target_url = 'https://www.youtube.com/user/opensusetv/videos'
