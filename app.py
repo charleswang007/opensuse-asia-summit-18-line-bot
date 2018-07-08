@@ -255,7 +255,7 @@ def movie():
     return content
 
 def venue():
-    return "National Taiwan University of Science and Technology \n No.43, Keelung Rd., Sec.4, Da'an Dist., Taipei, Taiwan, Republic Of China"
+    return "National Taiwan University of Science and Technology 國立台灣科技大學\nNo.43, Keelung Rd., Sec.4, Da'an Dist., Taipei, Taiwan, Republic Of China"
 
 def technews():
     target_url = 'https://technews.tw/'
