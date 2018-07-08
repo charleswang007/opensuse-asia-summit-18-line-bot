@@ -353,9 +353,9 @@ def handle_message(event):
         return 0
     if event.message.text == "Venue":
         content = venue()
-        #line_bot_api.reply_message(
-        #    event.reply_token,
-        #    TextSendMessage(text=content))
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(text=content))
         message = ImageSendMessage(
             originalContentUrl='https://charleswang.us/opensuse-line-bot/taiwan-tech2.jpg',
             previewImageUrl='https://charleswang.us/opensuse-line-bot/taiwan-tech1.png')
