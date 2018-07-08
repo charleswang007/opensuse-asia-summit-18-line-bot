@@ -360,7 +360,7 @@ def handle_message(event):
         #    event.reply_token,
         #    TextSendMessage(text=content))
         image_message = ImageSendMessage(
-            original_content_url='https://charleswang.us/opensuse-line-bot/taiwan-tech1.png',
+            original_content_url='https://charleswang.us/opensuse-line-bot/taiwan-tech5.jpg',
             preview_image_url='https://charleswang.us/opensuse-line-bot/taiwan-tech3.jpg'
         )
         line_bot_api.reply_message(
