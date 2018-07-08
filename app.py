@@ -356,12 +356,16 @@ def handle_message(event):
         line_bot_api.reply_message(
             event.reply_token,
             TextSendMessage(text=content))
-        message = ImageSendMessage(
-            originalContentUrl='https://charleswang.us/opensuse-line-bot/taiwan-tech2.jpg',
-            previewImageUrl='https://charleswang.us/opensuse-line-bot/taiwan-tech1.png')
-        line_bot_api.reply_message(
-            event.reply_token,
-            message)
+        #message = ImageSendMessage(
+        #    originalContentUrl='https://charleswang.us/opensuse-line-bot/taiwan-tech2.jpg',
+        #    previewImageUrl='https://charleswang.us/opensuse-line-bot/taiwan-tech1.png')
+        #line_bot_api.reply_message(
+        #    event.reply_token,
+        #    message)
+        message = StickerSendMessage(
+            package_id='1',
+            sticker_id='1')
+        line_bot_api.reply_message(event.reply_token, message)
         return 0
     if event.message.text == "YouTube":
         target_url = 'https://www.youtube.com/user/opensusetv/videos'
