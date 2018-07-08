@@ -255,7 +255,7 @@ def movie():
     return content
 
 def venue():
-    return "National Taiwan University of Science and Technology - No.43, Keelung Rd., Sec.4, Da'an Dist., Taipei, Taiwan, Republic Of China"
+    return "National Taiwan University of Science and Technology \n No.43, Keelung Rd., Sec.4, Da'an Dist., Taipei, Taiwan, Republic Of China"
 
 def technews():
     target_url = 'https://technews.tw/'
@@ -356,6 +356,12 @@ def handle_message(event):
         line_bot_api.reply_message(
             event.reply_token,
             TextSendMessage(text=content))
+        message = ImageSendMessage(
+            original_content_url='http://www.dmlogo.com/bbs/attachments/forumid_16/20150715_fd7e37c7a16aa8dedd19YGEGcto29sHs.png',
+            preview_image_url='http://www.ntust.edu.tw/ezfiles/0/1000/randimg/ad_1320_56756_21216.jpg')
+        line_bot_api.reply_message(
+            event.reply_token,
+            message)
         return 0
     if event.message.text == "YouTube":
         target_url = 'https://www.youtube.com/user/opensusetv/videos'
