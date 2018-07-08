@@ -349,8 +349,8 @@ def handle_message(event):
             event.reply_token,
             TextSendMessage(text=content))
         return 0
-    if event.message.text == "觸電網-youtube":
-        target_url = 'https://www.youtube.com/user/truemovie1/videos'
+    if event.message.text == "openSUSE-youtube":
+        target_url = 'https://www.youtube.com/user/opensusetv/videos'
         rs = requests.session()
         res = rs.get(target_url, verify=False)
         soup = BeautifulSoup(res.text, 'html.parser')
@@ -444,8 +444,8 @@ def handle_message(event):
                         text='eyny'
                     ),
                     MessageTemplateAction(
-                        label='觸電網-youtube',
-                        text='觸電網-youtube'
+                        label='openSUSE-youtube',
+                        text='openSUSE-youtube'
                     )
                 ]
             )
