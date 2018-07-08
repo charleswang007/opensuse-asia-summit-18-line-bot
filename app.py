@@ -254,6 +254,8 @@ def movie():
         content += '{}\n{}\n'.format(title, link)
     return content
 
+def venue():
+    return "National Taiwan University of Science and Technology - No.43, Keelung Rd., Sec.4, Da'an Dist., Taipei, Taiwan, Republic Of China"
 
 def technews():
     target_url = 'https://technews.tw/'
@@ -309,7 +311,7 @@ def handle_message(event):
             event.reply_token,
             TextSendMessage(text=content))
         return 0
-    if event.message.text == "來張 imgur 正妹圖片":
+    if event.message.text == "SUSE Logo":
         client = ImgurClient(client_id, client_secret)
         images = client.get_album_images(album_id)
         index = random.randint(0, len(images) - 1)
@@ -349,8 +351,14 @@ def handle_message(event):
             event.reply_token,
             TextSendMessage(text=content))
         return 0
+    if event.message.text == "Venue":
+        content = venue()
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(text=content))
+        return 0
     if event.message.text == "openSUSE-youtube":
-        target_url = 'https://www.youtube.com/user/truemovie1/videos'
+        target_url = 'https://www.youtube.com/user/opensusetv/videos'
         rs = requests.session()
         res = rs.get(target_url, verify=False)
         soup = BeautifulSoup(res.text, 'html.parser')
