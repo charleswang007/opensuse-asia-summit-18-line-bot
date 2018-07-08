@@ -357,8 +357,8 @@ def handle_message(event):
         #    event.reply_token,
         #    TextSendMessage(text=content))
         message = ImageSendMessage(
-            originalContentUrl='http://www.dmlogo.com/bbs/attachments/forumid_16/20150715_fd7e37c7a16aa8dedd19YGEGcto29sHs.png',
-            previewImageUrl='http://www.ntust.edu.tw/ezfiles/0/1000/randimg/ad_1320_56756_21216.jpg')
+            originalContentUrl='https://charleswang.us/opensuse-line-bot/taiwan-tech2.jpg',
+            previewImageUrl='https://charleswang.us/opensuse-line-bot/taiwan-tech1.png')
         line_bot_api.reply_message(
             event.reply_token,
             message)
