@@ -357,7 +357,7 @@ def handle_message(event):
             event.reply_token,
             TextSendMessage(text=content))
         return 0
-    if event.message.text == "openSUSE-youtube":
+    if event.message.text == "YouTube":
         target_url = 'https://www.youtube.com/user/opensusetv/videos'
         rs = requests.session()
         res = rs.get(target_url, verify=False)
@@ -452,8 +452,8 @@ def handle_message(event):
                         text='eyny'
                     ),
                     MessageTemplateAction(
-                        label='openSUSE-youtube',
-                        text='openSUSE-youtube'
+                        label='YouTube',
+                        text='YouTube'
                     )
                 ]
             )
