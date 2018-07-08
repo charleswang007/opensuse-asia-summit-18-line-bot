@@ -316,6 +316,9 @@ def handle_message(event):
         images = client.get_album_images(album_id)
         index = random.randint(0, len(images) - 1)
         url = images[index].link
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(text=url))
         image_message = ImageSendMessage(
             original_content_url=url,
             preview_image_url=url
