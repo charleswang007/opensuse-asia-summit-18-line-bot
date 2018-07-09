@@ -10,8 +10,8 @@ LINE > Add Friends > QRCODE
 
 OR Click [https://line.me/R/ti/p/%40vbi2716y](https://line.me/R/ti/p/%40vbi2716y)
 
-![alt tag](https://i.imgur.com/wmEoo6w.png | width=150)
-![alt tag](https://i.imgur.com/2EiwtNN.png | width=150)
+![](https://i.imgur.com/wmEoo6w.png | width=150)
+![](https://i.imgur.com/2EiwtNN.png | width=150)
 
 ### Menu
 
