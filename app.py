@@ -274,6 +274,23 @@ def technews():
         content += '{}\n{}\n\n'.format(title, link)
     return content
 
+def susenews():
+    target_url = 'https://www.suse.com/c/news/'
+    print('Start parsing news ...')
+    rs = requests.session()
+    res = rs.get(target_url, verify=False)
+    res.encoding = 'utf-8'
+    soup = BeautifulSoup(res.text, 'html.parser')
+    content = ""
+    date_lst = []
+    subject_lst = []
+
+    for i in enumerate(soup.select('.col-sm-3 .date')):
+        date_lst.append(i)
+    for j in enumerate(soup.select('.col-sm-8 .content')):
+        subject_lst.append(j)
+    content = str(date_lst) + str(subject_lst)
+    return content
 
 def panx():
     target_url = 'https://panx.asia/'
@@ -381,6 +398,12 @@ def handle_message(event):
                 TextSendMessage(text=seqs[random.randint(0, len(seqs) - 1)]),
                 TextSendMessage(text=seqs[random.randint(0, len(seqs) - 1)])
             ])
+        return 0
+    if event.message.text == "News":
+        content = susenews()
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(text=content))
         return 0
     if event.message.text == "科技新報":
         content = technews()
