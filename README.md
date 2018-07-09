@@ -24,19 +24,17 @@ Winner design from [https://vote.opensuse-asia.org/activity/1](https://vote.open
 
 National Taiwan University of Science and Technology
 
-No.43, Keelung Rd., Sec.4, Da'an Dist., Taipei, Taiwan, Republic Of China
-
 ***YouTube***
 
-Random videos from [https://www.youtube.com/user/opensusetv/videos](https://www.youtube.com/user/opensusetv/videos)
+Two Random videos from [https://www.youtube.com/user/opensusetv/videos](https://www.youtube.com/user/opensusetv/videos)
 
 ***Schedule***
 
-Scrapped from [https://events.opensuse.org/conference/summitasia18/schedule](https://events.opensuse.org/conference/summitasia18/schedule)
+Open [https://events.opensuse.org/conference/summitasia18/schedule](https://events.opensuse.org/conference/summitasia18/schedule)
 
 ***News***
 
-Scrapped from [https://www.suse.com/c/news/](https://www.suse.com/c/news/)
+Webscrap [https://www.suse.com/c/news/](https://www.suse.com/c/news/)
 
 ***Abut***
 
@@ -44,7 +42,7 @@ Event & Author Info
 
 ## Reference
 
-* (https://github.com/twtrubiks/line-bot-tutorial)
+* [Github](https://github.com/twtrubiks/line-bot-tutorial)
 * [line messaging-api](https://devdocs.line.me/en/#messaging-api)
 * [line-bot-sdk-python](https://github.com/line/line-bot-sdk-python)
 * [imgurpython](https://github.com/Imgur/imgurpython)
