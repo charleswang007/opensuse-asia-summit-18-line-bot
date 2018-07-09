@@ -10,14 +10,14 @@ LINE > Add Friends > QRCODE
 
 OR Click [https://line.me/R/ti/p/%40vbi2716y](https://line.me/R/ti/p/%40vbi2716y)
 
-![](https://i.imgur.com/wmEoo6w.png | width=150)
-![](https://i.imgur.com/2EiwtNN.png | width=150)
+![alt tag](https://i.imgur.com/wmEoo6w.png)
+![alt tag](https://i.imgur.com/2EiwtNN.png)
 
 ### Menu
 
 ***Logo***
 
-Winnder design from [https://vote.opensuse-asia.org/activity/1](https://vote.opensuse-asia.org/activity/1)
+Winner design from [https://vote.opensuse-asia.org/activity/1](https://vote.opensuse-asia.org/activity/1)
 
 ***Venue***
 
