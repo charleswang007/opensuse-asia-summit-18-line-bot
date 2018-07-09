@@ -47,6 +47,10 @@ Event & Author Info
 * [line-bot-sdk-python](https://github.com/line/line-bot-sdk-python)
 * [imgurpython](https://github.com/Imgur/imgurpython)
 
+## Management Console
+* [LINE Manager](https://admin-official.line.me/)
+* [LINE Developers](https://developers.line.me/en/)
+
 ## License
 
 MIT license
