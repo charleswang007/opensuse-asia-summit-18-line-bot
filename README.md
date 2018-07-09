@@ -42,7 +42,7 @@ Event & Author Info
 
 ## Reference
 
-* [Github](https://github.com/twtrubiks/line-bot-tutorial)
+* [github tutorial](https://github.com/twtrubiks/line-bot-tutorial)
 * [line messaging-api](https://devdocs.line.me/en/#messaging-api)
 * [line-bot-sdk-python](https://github.com/line/line-bot-sdk-python)
 * [imgurpython](https://github.com/Imgur/imgurpython)
