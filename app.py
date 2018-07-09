@@ -289,9 +289,9 @@ def susenews():
         date_lst.append(i)
     for j in soup.select('.col-sm-8 .content'):
         subject_lst.append(j)
-    for k in len(date_lst):
-        content += '{}\n{}\n\n'.format(str(date_lst[k]), str(subject_lst[k]))
-    #content = str(date_lst) + str(subject_lst)
+    #for k in len(date_lst):
+    #    content += '{}\n{}\n\n'.format(str(date_lst[k]), str(subject_lst[k]))
+    content = str(date_lst) + '\n' + str(subject_lst)
     return content
 
 def panx():
