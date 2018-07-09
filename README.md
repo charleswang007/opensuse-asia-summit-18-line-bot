@@ -6,7 +6,7 @@ Build a LINE Bot with Python Flask
 
 LINE > Add Friends > QRCODE
 
-![alt tag](http://qr-official.line.me/L/ilOiB2j4Ia.png)
+![alt tag](https://qr-official.line.me/M/ilOiB2j4Ia.png)
 
 OR Click [https://line.me/R/ti/p/%40vbi2716y](https://line.me/R/ti/p/%40vbi2716y)
 
