@@ -16,15 +16,35 @@ OR Click [https://line.me/R/ti/p/%40vbi2716y](https://line.me/R/ti/p/%40vbi2716y
 ### Menu
 
 ***Logo***
+
+Winnder design from [https://vote.opensuse-asia.org/activity/1](https://vote.opensuse-asia.org/activity/1)
+
 ***Venue***
+
+National Taiwan University of Science and Technology
+
+No.43, Keelung Rd., Sec.4, Da'an Dist.
+Taipei, Taiwan, Republic Of China
+
 ***YouTube***
+
+Random videos from [https://www.youtube.com/user/opensusetv/videos](https://www.youtube.com/user/opensusetv/videos)
+
 ***Schedule***
+
+Scrapped from [https://events.opensuse.org/conference/summitasia18/schedule](https://events.opensuse.org/conference/summitasia18/schedule)
+
 ***News***
+
+Scrapped from [https://www.suse.com/c/news/](https://www.suse.com/c/news/)
+
 ***Abut***
+
+Event & Author Info
 
 ## Reference
 
-* [github] (https://github.com/twtrubiks/line-bot-tutorial)
+* [github.com/twtrubiks/line-bot-tutorial] (https://github.com/twtrubiks/line-bot-tutorial)
 * [line messaging-api](https://devdocs.line.me/en/#messaging-api)
 * [line-bot-sdk-python](https://github.com/line/line-bot-sdk-python)
 * [imgurpython](https://github.com/Imgur/imgurpython)
