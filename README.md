@@ -10,8 +10,8 @@ LINE > Add Friends > QRCODE
 
 OR Click [https://line.me/R/ti/p/%40vbi2716y](https://line.me/R/ti/p/%40vbi2716y)
 
-![alt tag](https://i.imgur.com/wmEoo6w.png)
-![alt tag](https://i.imgur.com/2EiwtNN.png)
+![alt tag](https://i.imgur.com/wmEoo6w.png | width=150)
+![alt tag](https://i.imgur.com/2EiwtNN.png | width=150)
 
 ### Menu
 
@@ -23,8 +23,7 @@ Winnder design from [https://vote.opensuse-asia.org/activity/1](https://vote.ope
 
 National Taiwan University of Science and Technology
 
-No.43, Keelung Rd., Sec.4, Da'an Dist.
-Taipei, Taiwan, Republic Of China
+No.43, Keelung Rd., Sec.4, Da'an Dist., Taipei, Taiwan, Republic Of China
 
 ***YouTube***
 
@@ -44,7 +43,7 @@ Event & Author Info
 
 ## Reference
 
-* [github.com/twtrubiks/line-bot-tutorial] (https://github.com/twtrubiks/line-bot-tutorial)
+* (https://github.com/twtrubiks/line-bot-tutorial)
 * [line messaging-api](https://devdocs.line.me/en/#messaging-api)
 * [line-bot-sdk-python](https://github.com/line/line-bot-sdk-python)
 * [imgurpython](https://github.com/Imgur/imgurpython)
