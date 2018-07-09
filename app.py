@@ -285,9 +285,9 @@ def susenews():
     date_lst = []
     subject_lst = []
 
-    for i in enumerate(soup.select('.col-sm-3 .date')):
+    for i in soup.select('.col-sm-3 .date p'):
         date_lst.append(i)
-    for j in enumerate(soup.select('.col-sm-8 .content')):
+    for j in soup.select('.col-sm-8 .content p'):
         subject_lst.append(j)
     content = str(date_lst) + str(subject_lst)
     return content
