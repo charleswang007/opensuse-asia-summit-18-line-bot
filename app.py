@@ -412,7 +412,7 @@ def handle_message(event):
         return 0
     if event.message.text == "About":
         content = "openSUSE 亞洲高峰會是 openSUSE 社群 ( 即:貢獻者跟使用者 ) 很重要的活動之一，那些平常都在線上交流的人，現在可以一起面對面，與來自世界各地的高手進行交流，社群成員將會分享他們最新的知識、經驗，並學習關於 openSUSE FLOSS 的技術。這次在台北的活動是 openSUSE 亞洲高峰會的第五次，繼 2014 年首次的亞洲高峰會是在北京之後，過去的亞洲高峰有來自中國、台灣、印度、印度尼西亞、日本、南韓等國的參加。" 
-        content += "\n\nLINE Bot Created by: Charles Wang (cwang@suse.com)"
+        content += "\n\nLINE Bot Created by:\nCharles Wang (cwang@suse.com)"
         line_bot_api.reply_message(
             event.reply_token,
             TextSendMessage(text=content))
