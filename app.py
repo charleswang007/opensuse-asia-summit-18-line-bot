@@ -285,13 +285,13 @@ def susenews():
     date_lst = []
     subject_lst = []
 
-    for i in soup.select('.col-sm-3 p .date'):
-        date_lst.append(i)
-    for j in soup.select('.col-sm-8 div .content'):
-        subject_lst.append(j)
-    #for k in len(date_lst):
-    #    content += '{}\n{}\n\n'.format(str(date_lst[k]), str(subject_lst[k]))
-    content = str(date_lst) + '\n' + str(subject_lst)
+    for i in soup.select('div .col-sm-3 p.date'):
+        date_lst.append(i.getText())
+    for j in soup.select('div .col-sm-8 .content'):
+        subject_lst.append(j.getText())
+    for k in range(len(date_lst)):
+        content += date_lst[k].replace('\t','').replace('\n','') + '\n'
+        content += subject_lst[k].replace('\n','') + '\n\n'
     return content
 
 def panx():
