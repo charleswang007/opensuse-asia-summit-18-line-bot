@@ -290,8 +290,11 @@ def susenews():
     for j in soup.select('div .col-sm-8 .content'):
         subject_lst.append(j.getText())
     for k in range(len(date_lst)):
-        content += date_lst[k].replace('\t','').replace('\n','') + '\n'
-        content += subject_lst[k].replace('\n','') + '\n\n'
+        content += u'\u2022' + " " + date_lst[k].replace('\t','').replace('\n','') + '\n'
+        if k != len(date_lst) - 1:
+            content += subject_lst[k].replace('\n','') + '\n\n'
+        else:
+            content += subject_lst[k].replace('\n','')
     return content
 
 def panx():
